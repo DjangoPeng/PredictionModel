@@ -4,7 +4,7 @@ import codecs
 import numpy as np
 from gensim.models import Word2Vec as w2v
 
-model = w2v.load("../Train/model_10/notes_10.model")
+model = w2v.load("../Train/model_11/notes_11.model")
 
 f1 = codecs.open("diagnoses.txt", "r", "utf-8")
 f2 = codecs.open("allevents.txt", "r", "utf-8")
@@ -18,7 +18,7 @@ events = []
 for event in f2:
     events.append(event.strip())
 
-matrix = [[0 for x in range(30)] for x in range(160)]
+matrix = [[0 for x in range(len(diagnoses))] for x in range(len(events))]
 
 for i in range(len(events)):
     for j in range(len(diagnoses)):
