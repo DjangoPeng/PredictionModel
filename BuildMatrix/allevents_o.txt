@@ -1,0 +1,97 @@
+acute blood loss anemia
+acute renal failure
+aortic stenosis
+aspiration pneumonia
+atrial fibrillation
+congestive heart failure
+coronary artery disease
+diabetes mellitus
+respiratory failure
+urinary tract infection
+hypertension
+hyperlipidemia
+htn
+pneumonia
+anemia
+depression
+hypothyroidism
+hypercholesterolemia
+gerd
+cad
+copd
+sepsis
+hypotension
+dyslipidemia
+diabetes
+asthma
+anxiety
+gout
+chf
+obesity
+acetaminophen
+albuterol sulfate
+alcium carbonate 
+amiodarone
+ascorbic acid
+aspirin
+atorvastatin
+b complex-vitamin c-folic acid
+bisacodyl
+cholecalciferol 
+ciprofloxacin 
+clopidogrel 
+docusate sodium 
+famotidine
+ferrous sulfate 
+fluticasone
+folic acid 
+heparin
+lidocaine
+lisinopril 
+magnesium hydroxide
+metoprolol tartrate
+multivitamin
+nystatin 
+omeprazole
+oxycodone-acetaminophen 
+pantoprazole
+potassium chloride
+ranitidine hcl 
+senna 
+simvastatin 
+thiamine hcl 
+tiotropium bromide 
+ap chest
+bcx
+blood culture
+blood cx
+calcium carbonate 
+cardiac cath
+cath
+chest x ray
+ct
+ct abd/pelvis
+ct c spine
+ct chest
+ct head
+ct torso
+cta
+cta chest
+cta head
+cxr
+ecg
+echo
+eeg
+egd
+ekg
+kub
+microbiology
+mri
+mri head
+pa and lateral chest
+sputum
+tte
+ucx
+urine
+urine culture
+urine cx
