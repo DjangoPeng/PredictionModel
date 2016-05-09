@@ -1,0 +1,64 @@
+acute blood loss anemia
+acute renal failure
+aortic stenosis
+aspiration pneumonia
+atrial fibrillation
+congestive heart failure
+coronary artery disease
+diabetes mellitus
+respiratory failure
+urinary tract infection
+albuterol sulfate
+alcium carbonate 
+ascorbic acid
+b complex-vitamin c-folic acid
+docusate sodium 
+ferrous sulfate 
+folic acid 
+magnesium hydroxide
+metoprolol tartrate
+oxycodone-acetaminophen 
+potassium chloride
+ranitidine hcl 
+thiamine hcl 
+tiotropium bromide 
+acute blood loss anemia
+acute renal failure
+albuterol sulfate
+calcium carbonate 
+aortic stenosis
+ap chest
+ascorbic acid
+aspiration pneumonia
+atrial fibrillation
+b complex-vitamin c-folic acid
+blood culture
+blood cx
+cardiac cath
+chest x ray
+congestive heart failure
+coronary artery disease
+ct abd/pelvis
+ct c spine
+ct chest
+ct head
+ct torso
+cta chest
+cta head
+diabetes mellitus
+docusate sodium 
+ferrous sulfate 
+folic acid 
+magnesium hydroxide
+metoprolol tartrate
+mri head
+oxycodone-acetaminophen 
+pa and lateral chest
+potassium chloride
+ranitidine hcl 
+respiratory failure
+thiamine hcl 
+tiotropium bromide 
+urinary tract infection
+urine culture
+urine cx
