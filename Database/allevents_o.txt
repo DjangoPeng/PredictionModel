@@ -1,36 +1,35 @@
 acute blood loss anemia
 acute renal failure
+anemia
+anxiety
 aortic stenosis
 aspiration pneumonia
-atrial fibrillation
-congestive heart failure
-coronary artery disease
-diabetes mellitus
-respiratory failure
-urinary tract infection
-hypertension
-hyperlipidemia
-htn
-pneumonia
-anemia
-depression
-hypothyroidism
-hypercholesterolemia
-gerd
-cad
-copd
-sepsis
-hypotension
-dyslipidemia
-diabetes
 asthma
-anxiety
-gout
+atrial fibrillation
+cad
 chf
+congestive heart failure
+copd
+coronary artery disease
+depression
+diabetes
+diabetes mellitus
+dyslipidemia
+gerd
+gout
+htn
+hypercholesterolemia
+hyperlipidemia
+hypertension
+hypotension
+hypothyroidism
 obesity
+pneumonia
+respiratory failure
+sepsis
+urinary tract infection
 acetaminophen
 albuterol sulfate
-alcium carbonate 
 amiodarone
 ascorbic acid
 aspirin
