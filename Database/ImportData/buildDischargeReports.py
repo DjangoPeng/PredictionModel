@@ -28,9 +28,9 @@ for pro in proList:
     pros.append(str(pro[0]))
     
 #Get All Reports
-cur.execute("select * from report;")
+cur.execute("DELETE FROM report_1;")
+cur.execute("SELECT * FROM report;")
 recordList=cur.fetchall()
-cur.execute("truncate table report_1;")
 for record in recordList:
     #Get the discharge report text
     note = str(record[4])
@@ -51,36 +51,52 @@ for record in recordList:
         continue
     
     #Get the Diagnoses
-    m=re.search(r"(Discharge Diagnosis:\n)([a-zA-Z0-9].*\n)+(\n{2,3})", note)
+    #m=re.search(r"(Discharge Diagnosis:\n)([a-zA-Z0-9].*\n)+(\n{1,2,3})", note)
+    m=re.search(r"(Discharge Diagnosis:\n)([a-zA-Z0-9].*\n)+", note)
+    curDiags = []
     if m:
-        curDiags = []
+        #print m.group(0)
         curDiagnoses = m.group(0).lower()
         for diag in diags:
-            if curDiagnoses.find(diag) > 0:
+            if curDiagnoses.find(diag) >= 0:
                 curDiags.append(diag)
-    if len(curDiags) == 0:
+        if len(curDiags) == 0:
+            continue
+    else:
+        #print "---------Diagnoses--------"
         continue
                 
     #Get the Medications
-    m = re.search(r"(Discharge Medications:\n)([a-zA-Z0-9].*\n)+(\n{2,3})", note)
+    #m = re.search(r"(Discharge Medications:\n)([a-zA-Z0-9].+\n)+(\n{1,2,3}})", note)
+    m = re.search(r"(Discharge Medications:\n)([a-zA-Z0-9].*\n)+", note)
+    curMeds = []
     if m:
-        curMeds = []
+        #print m.group(0)
         curMedications = m.group(0).lower()
+        #print curMedications
         for med in meds:
-            if curMedications.find(med):
+            if curMedications.find(med) >= 0:
                 curMeds.append(med)
-                
-    
+                #print med,curMedications.find(med)
+        #print curMeds
+        #print record[4]
+
+
     #Get the Procedures
     curPros = []
     for pro in pros:
-        if note.lower().find(pro):
+        if note.lower().find(pro) >= 0:
             curPros.append(pro)
     
     #Insert Record Into Report_1 Table
-    cur.execute("insert into report_1 (hadm_id, subject_id, chardate, category, text, admission_date, discharge_date, diagnosis, medication, procedure) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);",  
+    cur.execute("INSERT INTO report_1 (hadm_id, subject_id, chardate, category, text, admission_date, discharge_date, diagnosis, medication, procedure) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);",  
             (record[0],record[1],record[2], record[3], record[4],adDate, disDate, curDiags, curMeds, curPros))
 
 conn.commit()
 cur.close()
 conn.close()
+    
+    
+    
+    
+    

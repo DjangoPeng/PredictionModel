@@ -5,8 +5,10 @@ import csv
 conn = psycopg2.connect("dbname=mimic user=mimic")
 cur = conn.cursor()
 
-diagFile = open('procedures.csv', 'rb')
+diagFile = open('../Table/procedures.csv', 'rb')
 reader = csv.reader(diagFile)
+
+cur.execute("DELETE FROM selProcedures")
 
 rownum = 0 
 for row in reader:
@@ -16,7 +18,7 @@ for row in reader:
     else:
         #insert diagnosis into table
         cur.execute("insert into selProcedures (id, original_name, connected_name) values (%s, %s, %s)", 
-                    (rownum, row[0], row[1]))
+                    (rownum, row[0].strip(" "), row[1]))
     rownum += 1
 
 conn.commit()
