@@ -1,0 +1,35 @@
+ORIGINAL,CONVERT
+ap chest,ap_chest
+bcx,bcx
+blood culture,blood_culture
+blood cx,blood_cx
+calcium carbonate ,calcium_carbonate
+cardiac cath,cardiac_cath
+cath,cath
+chest x ray,chest_x_ray
+ct,ct
+ct abd/pelvis,ct_abd/pelvis
+ct c spine,ct_c_spine
+ct chest,ct_chest
+ct head,ct_head
+ct torso,ct_torso
+cta,cta
+cta chest,cta_chest
+cta head,cta_head
+cxr,cxr
+ecg,ecg
+echo,echo
+eeg,eeg
+egd,egd
+ekg,ekg
+kub,kub
+microbiology,microbiology
+mri,mri
+mri head,mri_head
+pa and lateral chest,pa_and_lateral_chest
+sputum,sputum
+tte,tte
+ucx,ucx
+urine,urine
+urine culture,urine_culture
+urine cx,urine_cx

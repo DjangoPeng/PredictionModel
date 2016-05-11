@@ -1,0 +1,31 @@
+ORIGINAL,CONVERT
+acute blood loss anemia,acute_blood_loss_anemia
+acute renal failure,acute_renal_failure
+anemia,anemia
+anxiety,anxiety
+aortic stenosis,aortic_stenosis
+aspiration pneumonia,aspiration_pneumonia
+asthma,asthma
+atrial fibrillation,atrial_fibrillation
+cad,cad
+chf,chf
+congestive heart failure,congestive_heart_failure
+copd,copd
+coronary artery disease,coronary_artery_disease
+depression,depression
+diabetes,diabetes
+diabetes mellitus,diabetes_mellitus
+dyslipidemia,dyslipidemia
+gerd,gerd
+gout,gout
+htn,htn
+hypercholesterolemia,hypercholesterolemia
+hyperlipidemia,hyperlipidemia
+hypertension,hypertension
+hypotension,hypotension
+hypothyroidism,hypothyroidism
+obesity,obesity
+pneumonia,pneumonia
+respiratory failure,respiratory_failure
+sepsis,sepsis
+urinary tract infection,urinary_tract_infection
