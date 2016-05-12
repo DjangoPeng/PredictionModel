@@ -67,7 +67,8 @@ for record in result:
                 seq[0,int(i)] = 1
             #print seq
             print np.dot(seq, matrix)
-            #Seq * Similarity Matrix (pass subject_id)
+            #Seq * Similarity Matrix (subject_id)
+
             break
         subject_id = record[1]
         list = []
