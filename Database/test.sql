@@ -39,3 +39,9 @@ FROM selEvents
 SELECT *
 FROM selDiagnoses
 ;
+
+SELECT *
+FROM trainData 
+ORDER BY id_train
+limit 10
+;
