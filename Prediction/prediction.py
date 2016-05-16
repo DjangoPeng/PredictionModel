@@ -38,9 +38,8 @@ for row in reader:
     y = 0
 
     
-
-#Build Event Sequences
 def trick(r):
+    "Split all events"
     return r.strip("{}").split(",")
 
 def getList(r1,r2,r3):
@@ -48,6 +47,7 @@ def getList(r1,r2,r3):
     list = trick(r1) + trick(r2) + trick(r3)
     return list
 
+#Build Event Sequences
 cur.execute("SELECT * FROM trainData ORDER BY subject_id")
 result = cur.fetchall()
 
@@ -58,6 +58,7 @@ for record in result:
     #print record[0],subject_id
     
     if subject_id == record[1]:
+        #record[4-6] individually represents 
         list += getList(record[4], record[5], record[6])
     else:
         #print list
@@ -67,8 +68,7 @@ for record in result:
                 seq[0,int(i)] = 1
             #print seq
             print np.dot(seq, matrix)
-            #Seq * Similarity Matrix (subject_id)
-
+            #Seq * Similarity Matrix (pass subject_id)
             break
         subject_id = record[1]
         list = []
