@@ -18,7 +18,7 @@ for row in reader:
     else:
         #insert diagnosis into table
         cur.execute("insert into selProcedures (id, original_name, connected_name) values (%s, %s, %s)", 
-                    (rownum, row[0].strip(" "), row[1]))
+                    (rownum - 1, row[0].strip(" "), row[1]))
     rownum += 1
 
 conn.commit()
