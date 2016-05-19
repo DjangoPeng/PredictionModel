@@ -1,10 +1,13 @@
 #Split Train and Test Dataset
 import psycopg2
 
+
+def trick(r):
+    "Split all events"
+    return r.strip("{}").split(",")
+
 conn = psycopg2.connect("dbname=mimic user=mimic")
 cur = conn.cursor()
-
-
 
 #Build Events Dictionary
 cur.execute("SELECT * FROM selEvents")
@@ -29,9 +32,9 @@ for record in resultList:
     diag_id  = []
     med_id = []
     pro_id = []
-    diagnoses = record[3].strip("{}").split(",")
-    medications = record[4].strip("{}").split(",")
-    procedures = record[5].strip("{}").split(",")
+    diagnoses = trick(record[3])
+    medications = trick(record[4])
+    procedures = trick(record[5])
     
     #print diagnoses, medications, procedures
     for diag in diagnoses:
