@@ -95,7 +95,8 @@ for record in result:
             
             id = id_test
             if id in test_dict:
-                p_list = arg_list[0][0:len(test_dict[id])]
+                #p_list = arg_list[0][0:len(test_dict[id])]
+                p_list = arg_list[0][0:5]
             else:
                 print id
                 break
@@ -104,7 +105,7 @@ for record in result:
             #Check the prediction
             for i in test_dict[id]:
                 sample[i] += 1
-                if sample[i] in p_list:
+                if i in p_list:
                     positive[i] += 1
                 
             
