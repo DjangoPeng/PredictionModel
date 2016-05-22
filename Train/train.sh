@@ -1,0 +1,1 @@
+nohup python train_word2vec.py ../data/train_rep.data $1 $2 &
