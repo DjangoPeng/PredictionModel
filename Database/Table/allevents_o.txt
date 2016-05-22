@@ -1,32 +1,59 @@
 acute blood loss anemia
-acute renal failure
 anemia
 anxiety
 aortic stenosis
+arthritis
 aspiration pneumonia
 asthma
 atrial fibrillation
-cad
-chf
-congestive heart failure
+bacteremia
+bradycardia
+cellulitis
+cholangitis
+cirrhosis
+constipation
 copd
 coronary artery disease
+delirium
 depression
 diabetes
-diabetes mellitus
+diverticulosis
 dyslipidemia
+dysphagia
 gerd
+gi bleed
+glaucoma
 gout
+heart failure
+hematuria
+hepatitis
 htn
 hypercholesterolemia
+hyperkalemia
 hyperlipidemia
 hypertension
 hypotension
 hypothyroidism
+malnutrition
+myocardial infarction
 obesity
+obstructive pulmonary
+osteoarthritis
+osteoporosis
+pancreatitis
 pneumonia
+pulmonary edema
+pulmonary embolism
+pulmonary hypertension
+renal failure
 respiratory failure
+seizures
 sepsis
+septic shock
+sleep apnea
+spinal stenosis
+thrombocytopenia
+urinary retention
 urinary tract infection
 acetaminophen
 albuterol sulfate

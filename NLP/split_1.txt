@@ -1,24 +1,15 @@
 acute blood loss anemia
+acute renal failure
 aortic stenosis
 aspiration pneumonia
 atrial fibrillation
+congestive heart failure
 coronary artery disease
-gi bleed
-heart failure
-myocardial infarction
-obstructive pulmonary
-pulmonary edema
-pulmonary embolism
-pulmonary hypertension
-renal failure
+diabetes mellitus
 respiratory failure
-septic shock
-sleep apnea
-spinal stenosis
-subarachnoid hemorrhage
-urinary retention
 urinary tract infection
 albuterol sulfate
+alcium carbonate 
 ascorbic acid
 b complex-vitamin c-folic acid
 docusate sodium 
@@ -31,12 +22,22 @@ potassium chloride
 ranitidine hcl 
 thiamine hcl 
 tiotropium bromide 
+acute blood loss anemia
+acute renal failure
+albuterol sulfate
+calcium carbonate 
+aortic stenosis
 ap chest
+ascorbic acid
+aspiration pneumonia
+atrial fibrillation
+b complex-vitamin c-folic acid
 blood culture
 blood cx
-calcium carbonate 
 cardiac cath
 chest x ray
+congestive heart failure
+coronary artery disease
 ct abd/pelvis
 ct c spine
 ct chest
@@ -44,8 +45,20 @@ ct head
 ct torso
 cta chest
 cta head
-microbiology
+diabetes mellitus
+docusate sodium 
+ferrous sulfate 
+folic acid 
+magnesium hydroxide
+metoprolol tartrate
 mri head
+oxycodone-acetaminophen 
 pa and lateral chest
+potassium chloride
+ranitidine hcl 
+respiratory failure
+thiamine hcl 
+tiotropium bromide 
+urinary tract infection
 urine culture
 urine cx
