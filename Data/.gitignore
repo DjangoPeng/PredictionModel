@@ -1,3 +1,5 @@
 #Data
+.gitignore
 train.data
 train_rep.data
+train_rep_1.data
