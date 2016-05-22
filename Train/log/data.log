@@ -1,0 +1,7 @@
+Extracted data from TEXT domain of MIMIC III/NOTEEVENTS.csv
+train.data:	original 
+train_01.data: lower case
+train_02.data: delete punctuation
+train_03.data: conjunction all(without top 15 diagnosis..why?)
+train_04.data: add top 15 diagnosis
+

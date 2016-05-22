@@ -1,0 +1,11 @@
+2016-03-03 15:32:18,417 : INFO : running train_word2vec.py train.data notes.model. notes.vector
+2016-03-03 15:45:53,171 : INFO : collected 4275282 word types from a corpus of 514879274 raw words and 79505062 sentences
+2016-03-03 15:46:03,307 : INFO : min_count=5 retains 973434 unique words (drops 3301848)
+2016-03-03 15:46:03,307 : INFO : min_count leaves 509888913 word corpus (99% of original 514879274)
+2016-03-03 15:46:09,122 : INFO : deleting the raw counts dictionary of 4275282 items
+2016-03-03 15:46:09,834 : INFO : sample=0.001 downsamples 24 most-common words
+2016-03-03 15:46:09,834 : INFO : downsampling leaves estimated 464757315 word corpus (91.1% of prior 509888913)
+2016-03-03 15:46:09,834 : INFO : estimated required memory for 973434 words and 400 dimensions: 3601705800 bytes
+2016-03-03 15:46:13,631 : INFO : resetting layer weights
+2016-03-03 15:46:35,268 : INFO : training model with 32 workers on 973434 vocabulary and 400 features, using sg=0 hs=0 sample=0.001 negative=5
+2016-03-03 15:46:35,268 : INFO : expecting 79505062 sentences, matching count from corpus used for vocabulary survey
