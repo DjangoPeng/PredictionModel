@@ -8,7 +8,6 @@ obstructive_pulmonary
 pulmonary_edema
 pulmonary_embolism
 pulmonary_hypertension
-renal_failure
 respiratory_failure
 sleep_apnea
 albuterol_sulfate

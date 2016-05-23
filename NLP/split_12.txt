@@ -2,15 +2,22 @@ acute blood loss anemia
 aortic stenosis
 aspiration pneumonia
 atrial fibrillation
-diabetes mellitus
+coronary artery disease
+gi bleed
 heart failure
+myocardial infarction
 obstructive pulmonary
 pulmonary edema
 pulmonary embolism
 pulmonary hypertension
 renal failure
 respiratory failure
+septic shock
 sleep apnea
+spinal stenosis
+subarachnoid hemorrhage
+urinary retention
+urinary tract infection
 albuterol sulfate
 ascorbic acid
 b complex-vitamin c-folic acid
