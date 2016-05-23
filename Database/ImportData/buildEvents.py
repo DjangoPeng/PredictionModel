@@ -1,18 +1,35 @@
 import psycopg2
-import codecs
+
+def trick(r):
+    "Convert tuple element to string"
+    return r.strip("[()]").split(",")
+
+def extend(events, cur):
+	"Extend events list"
+	record = cur.fetchall()
+	for i in range(cur.rowcount):
+		events.extend(trick(record[i][0]))
+	return events
 
 conn = psycopg2.connect("dbname=mimic user=mimic")
 cur = conn.cursor()
 
-f = codecs.open("../Table/allevents_o.txt","r","utf-8")
 
 cur.execute("DELETE FROM selEvents")
 
 events = []
-id = 0
+cur.execute("SELECT original_name FROM selDiagnoses")
+events = extend(events, cur)
 
-for event in f:
-    cur.execute("INSERT INTO selEvents (id_event, event) VALUES(%s,%s);",(id,str(event).strip()))
+cur.execute("SELECT original_name FROM selMedications")
+events = extend(events, cur)
+
+cur.execute("SELECT original_name FROM selProcedures")
+events = extend(events, cur)
+
+id = 0
+for event in events:
+    cur.execute("INSERT INTO selEvents (id_event, event) VALUES(%s,%s);",(id,event))
     id += 1
 
 conn.commit()
