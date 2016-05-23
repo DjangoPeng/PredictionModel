@@ -1,6 +1,5 @@
 ORIGINAL,CONVERT
 acute blood loss anemia,acute_blood_loss_anemia
-anemia,anemia
 anxiety,anxiety
 aortic stenosis,aortic_stenosis
 arthritis,arthritis
@@ -12,47 +11,23 @@ bradycardia,bradycardia
 cellulitis,cellulitis
 cholangitis,cholangitis
 cirrhosis,cirrhosis
+ckd,ckd
 constipation,constipation
 copd,copd
-coronary artery disease,coronary_artery_disease
-delirium,delirium
-depression,depression
-diabetes,diabetes
-diverticulosis,diverticulosis
+diabetes mellitus,diabetes_mellitus
 dyslipidemia,dyslipidemia
-dysphagia,dysphagia
-gerd,gerd
-gi bleed,gi_bleed
 glaucoma,glaucoma
 gout,gout
 heart failure,heart_failure
-hematuria,hematuria
-hepatitis,hepatitis
 htn,htn
-hypercholesterolemia,hypercholesterolemia
-hyperkalemia,hyperkalemia
-hyperlipidemia,hyperlipidemia
 hypertension,hypertension
-hypotension,hypotension
 hypothyroidism,hypothyroidism
-malnutrition,malnutrition
-myocardial infarction,myocardial_infarction
 obesity,obesity
 obstructive pulmonary,obstructive_pulmonary
-osteoarthritis,osteoarthritis
-osteoporosis,osteoporosis
-pancreatitis,pancreatitis
 pneumonia,pneumonia
 pulmonary edema,pulmonary_edema
 pulmonary embolism,pulmonary_embolism
 pulmonary hypertension,pulmonary_hypertension
-renal failure,renal_failure
 respiratory failure,respiratory_failure
-seizures,seizures
 sepsis,sepsis
-septic shock,septic_shock
 sleep apnea,sleep_apnea
-spinal stenosis,spinal_stenosis
-thrombocytopenia,thrombocytopenia
-urinary retention,urinary_retention
-urinary tract infection,urinary_tract_infection

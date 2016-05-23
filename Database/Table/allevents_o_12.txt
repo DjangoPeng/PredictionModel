@@ -27,6 +27,7 @@ pneumonia
 pulmonary edema
 pulmonary embolism
 pulmonary hypertension
+renal failure
 respiratory failure
 sepsis
 sleep apnea
