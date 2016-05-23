@@ -5,7 +5,7 @@ import numpy as np
 from gensim.models import Word2Vec as w2v
 
 #model = w2v.load("../Train/model_11/notes_11.model")
-model = w2v.load("../Train/model_12/notes_12.model")
+model = w2v.load("../Train/model_13/notes_13.model")
 
 f1 = codecs.open("diagnoses.txt", "r", "utf-8")
 f2 = codecs.open("allevents.txt", "r", "utf-8")
@@ -26,5 +26,5 @@ for i in range(len(events)):
         matrix[i][j] = model.similarity(events[i], diagnoses[j])
         print i,j,matrix[i][j]
 
-np.savetxt("matrix_12.csv", matrix, delimiter = ',')
+np.savetxt("matrix.csv", matrix, delimiter = ',')
 
