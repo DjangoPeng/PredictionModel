@@ -44,8 +44,9 @@ for record in result:
     test_dict[record[0]] = int_list
 
 #Create Lists
-positive = [0] * len_diagnoses
 sample = [0] * len_diagnoses
+positive = [0] * len_diagnoses
+negative = [0] * len_diagnoses
     
 #Load Similarity Matrix
 len_event = cur.rowcount 
@@ -83,9 +84,11 @@ for record in result:
         #print list
         if list:
             seq = np.zeros(shape=(1,len_event))
+            len_list = len(list)
             for i in list:
                 if i:
-                    seq[0,int(i)] = 1
+                    #seq[0,int(i)] = 1.0/len_list
+                    seq[0,int(i)] = 1.0
             p_diagnoses = np.dot(seq, matrix)
             arg_list = np.argsort(p_diagnoses)
             
@@ -107,14 +110,18 @@ for record in result:
                 sample[i] += 1
                 if i in p_list:
                     positive[i] += 1
+                    #print i,list,test_dict[id],p_list
+                    #exit()
+                else:
+                    negative[i] += 1
                 
             
             #break
        
 
         subject_id = record[1]
-        list += get_list(record[4], record[5], record[6])
+        list = get_list(record[4], record[5], record[6])
         id_test = record[7]
         
 for i in range(len(sample)):
-    print i, positive[i], sample[i]
+    print i, positive[i], sample[i], positive[i]*1.0/sample[i]

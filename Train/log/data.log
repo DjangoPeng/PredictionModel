@@ -3,5 +3,7 @@ train.data:	original
 train_01.data: lower case
 train_02.data: delete punctuation
 train_03.data: conjunction all(without top 15 diagnosis..why?)
-train_04.data: add top 15 diagnosis
+train_04.data: add top 15 diagnoses
 
+train_12.data: 56 diagnoses
+train_13.data: select high precision diagnoses 
