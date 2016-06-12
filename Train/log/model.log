@@ -6,5 +6,8 @@ nodes_04.model: size = 100, window = 100, min_count = 5
 nodes_05.model: size = 100, window = 100, min_count = 5
 nodes_06.model: size = 100, window = 50, min_count = 5
 
-notes_12.mocel: size = 400, window = 200, min_count = 5
-notes_13.mocel: size = 400, window = 200, min_count = 5
+
+notes_13.model: size = 400, window = 200, min_count = 5
+notes_14.model: size = 200, window = 200, min_count = 5
+notes_15.model: size = 100, window = 200, min_count = 5
+notes_16.model: size = 600, window = 200, min_count = 5, sg = 1
