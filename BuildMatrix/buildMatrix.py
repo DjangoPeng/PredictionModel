@@ -5,7 +5,7 @@ import numpy as np
 from gensim.models import Word2Vec as w2v
 
 #model = w2v.load("../Train/model_11/notes_11.model")
-model = w2v.load("../Train/model_13/notes_13.model")
+model = w2v.load("../Train/model_15/notes_15.model")
 
 f1 = codecs.open("diagnoses.txt", "r", "utf-8")
 f2 = codecs.open("allevents.txt", "r", "utf-8")
