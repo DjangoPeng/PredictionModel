@@ -1,9 +1,9 @@
 # Diagnoses Prediction Model
 
 ## Introduction 
-This is a unsupervised learning model to predict the patient diagnoses in the future. The data set is [MIMIC III](http://mimic.physionet.org), which is developed by MIT lab. 
+This is an unsupervised learning model to predict the patient diagnoses in the future. The data set is [MIMIC III](http://mimic.physionet.org), which is developed by MIT lab. 
 
-I extracted 7k+ discharge reports from the *NOTEEVENTS.csv* (A reports table in the MIMIC III database which has more than 40k EHR). 
+I extracted 7k+ discharge reports from the *NOTEEVENTS.csv* (A notes table in the MIMIC III database which has more than 20k reports). 
 
 ## Data
 MIMIC is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with >40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.
